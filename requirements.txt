@@ -1,0 +1,5 @@
+# 평가 서버 제출용 requirements.txt
+# LightGBM 
+lightgbm>=4.0.0
+# Feather 파일 읽기/쓰기 
+pyarrow
