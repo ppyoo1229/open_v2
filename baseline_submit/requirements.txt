@@ -1,0 +1,5 @@
+# 평가 서버 제출용 requirements.txt
+# 주의: 서버에 기본 설치된 패키지는 제외했습니다
+
+# LightGBM (서버에 기본 설치 안 됨)
+lightgbm>=4.0.0

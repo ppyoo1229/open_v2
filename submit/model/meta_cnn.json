@@ -1,0 +1,32 @@
+{
+  "model": "1D CNN (Multi-sequence + Trial-wise features)",
+  "validation_mode": "Holdout",
+  "use_oof": false,
+  "n_splits": 2,
+  "cnn_config": {
+    "max_seq_length": 200,
+    "filter_sizes": [
+      3,
+      5,
+      7
+    ],
+    "num_filters": 64,
+    "cnn_layers": 2,
+    "dropout_rate": 0.3,
+    "pooling_type": "max",
+    "use_attention": true,
+    "attention_dim": 64,
+    "mlp_hidden_dims": [
+      256,
+      128
+    ],
+    "mlp_dropout": 0.3,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "num_epochs": 50,
+    "early_stopping_patience": 10,
+    "weight_decay": 1e-05
+  },
+  "random_state": 42,
+  "pytorch_version": "2.9.0+cu128"
+}
