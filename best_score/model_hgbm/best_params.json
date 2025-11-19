@@ -1,0 +1,43 @@
+{
+  "hgb_params_A": {
+    "learning_rate": 0.05,
+    "max_iter": 1500,
+    "max_depth": null,
+    "max_leaf_nodes": 63,
+    "min_samples_leaf": 20,
+    "l2_regularization": 0.0,
+    "early_stopping": true,
+    "validation_fraction": 0.15,
+    "n_iter_no_change": 30,
+    "class_weight": "balanced"
+  },
+  "hgb_params_B": {
+    "learning_rate": 0.02,
+    "max_iter": 1500,
+    "max_depth": null,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 50,
+    "l2_regularization": 1.0,
+    "early_stopping": true,
+    "validation_fraction": 0.15,
+    "n_iter_no_change": 40,
+    "class_weight": "balanced"
+  },
+  "ensemble_seeds": [
+    42,
+    202,
+    777,
+    1001,
+    8888
+  ],
+  "use_calibration": true,
+  "calib_method": "isotonic",
+  "calib_cv": 3,
+  "random_state": 42,
+  "sklearn_version": "1.5.2",
+  "oof_score_A": 0.16548349545457,
+  "oof_score_B": 0.21518084550987174,
+  "oof_score_total": 0.18113418369045622,
+  "oof_auc_total": 0.6523782715881759,
+  "note_A": "Single HGBM model (no age-based submodels, Age_num used as feature only)"
+}
