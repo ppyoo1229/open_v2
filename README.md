@@ -1,5 +1,6 @@
 # 데이콘 - 운수종사자 인지적 특성 데이터를 활용한 교통사고 위험 예측 - Best Score 모델
 https://dacon.io/competitions/official/236607/overview/description
+<img width="1598" height="305" alt="image" src="https://github.com/user-attachments/assets/44a6523d-fc30-4fb7-a2fb-69e8d4e83268" />
 <img width="1654" height="98" alt="image" src="https://github.com/user-attachments/assets/365bf7fc-3ba2-4984-8667-2f6b18ee82a4" />
 
 운수종사자 자격검사(A: 신규자격, B: 자격유지) 과정에서 수집된 인지·반응 관련 세부 검사 데이터를 활용하여, 검사 결과 기준 교통사고 위험군에 속할 확률을 예측하는 AI 모델을 개발합니다.
